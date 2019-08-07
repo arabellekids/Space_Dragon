@@ -18,8 +18,12 @@ public class Done_PlayerController : MonoBehaviour
 	public float fireRate;
 	 
 	private float nextFire;
-	
-	void Update ()
+    Rigidbody rb;
+    private void Start()
+    {
+        rb = GetComponent<Rigidbody>();
+    }
+    void Update ()
 	{
 		if (Input.GetButton("Fire1") && Time.time > nextFire) 
 		{
@@ -31,9 +35,9 @@ public class Done_PlayerController : MonoBehaviour
 
 	void FixedUpdate ()
 	{
-		float moveHorizontal = Input.GetAxis ("Horizontal");
+		float acceleration = Input.GetAxis ("Acceleration");
 		float moveVertical = Input.GetAxis ("Vertical");
-        
+        float moveHorizontal = Input.GetAxis("Horizontal");
 		Vector3 movement = new Vector3 (moveHorizontal, 0.0f, moveVertical);
 		GetComponent<Rigidbody>().velocity = movement * speed;
 		

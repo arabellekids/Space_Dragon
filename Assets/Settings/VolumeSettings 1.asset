@@ -10,14 +10,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d7fd9488000d3734a9e00ee676215985, type: 3}
-  m_Name: VolumeSettings
+  m_Name: VolumeSettings 1
   m_EditorClassIdentifier: 
   components:
-  - {fileID: 114527594671542966}
-  - {fileID: 114339849572665496}
-  - {fileID: 114022994554046848}
-  - {fileID: 114527406124596926}
---- !u!114 &114022994554046848
+  - {fileID: 114633989815573526}
+  - {fileID: 114463773030636408}
+  - {fileID: 114103230612274718}
+  - {fileID: 114523506214926368}
+--- !u!114 &114103230612274718
 MonoBehaviour:
   m_ObjectHideFlags: 3
   m_CorrespondingSourceObject: {fileID: 0}
@@ -65,9 +65,9 @@ MonoBehaviour:
   hdriSky:
     m_OverrideState: 1
     m_Value: {fileID: 8900000, guid: 7473664cfee550e43aa625fe69cda515, type: 3}
---- !u!114 &114339849572665496
+--- !u!114 &114463773030636408
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 3
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -84,7 +84,7 @@ MonoBehaviour:
   fogType:
     m_OverrideState: 1
     m_Value: 2
---- !u!114 &114527406124596926
+--- !u!114 &114523506214926368
 MonoBehaviour:
   m_ObjectHideFlags: 3
   m_CorrespondingSourceObject: {fileID: 0}
@@ -140,9 +140,9 @@ MonoBehaviour:
     m_Value: 0.2
     min: 0
     max: 1
---- !u!114 &114527594671542966
+--- !u!114 &114633989815573526
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 3
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}

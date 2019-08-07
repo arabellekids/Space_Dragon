@@ -44,7 +44,7 @@ MonoBehaviour:
     enableTransparentObjects: 1
     enableRealtimePlanarReflection: 1
     enableMSAA: 0
-    enableAsyncCompute: 0
+    enableAsyncCompute: 1
     runLightListAsync: 1
     runSSRAsync: 1
     runSSAOAsync: 1
@@ -149,7 +149,7 @@ MonoBehaviour:
       isFptlEnabled: 1
   renderPipelineSettings:
     supportShadowMask: 1
-    supportSSR: 0
+    supportSSR: 1
     supportSSAO: 1
     supportSubsurfaceScattering: 1
     increaseSssSampleCount: 0
